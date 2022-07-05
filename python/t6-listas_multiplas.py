@@ -11,8 +11,8 @@ while resposta == "S":
      resposta = input ("Digite \"S\" para continuar: ").upper()
 
 for indice in range(0,len(equipamentos)):
-     print("\nEquipamento..: ", (indice+1))
-     print("Nome...........: ", equipamentos(indice))
-     print("Valor..........: ", valores(indice))
-     print("Serial.........: ", seriais(indice))
-     print("Departamento...: ", departamentos(indice))
+       print("\nEquipamento..: ", (indice+1))
+       print("Nome...........: ", equipamentos[indice])
+       print("Valor..........: ", valores[indice])
+       print("Serial.........: ", seriais[indice])
+       print("Departamento...: ", departamentos[indice])
