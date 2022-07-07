@@ -1,4 +1,4 @@
-from m3.indetificacaoDefuncoes import *
+from modulo.indetificacaoDefuncoes import *
 
 minhaLista=[]
 print("Preenchendo")
